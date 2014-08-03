@@ -2,10 +2,10 @@ package api
 
 import (
 	"encoding/json"
-	"log"
-	"net/http"
 	"github.com/gorilla/mux"
 	"github.com/sirsean/pad/model"
+	"log"
+	"net/http"
 )
 
 var store model.Store

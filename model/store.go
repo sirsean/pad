@@ -7,7 +7,7 @@ import (
 
 type Store struct {
 	sync.RWMutex
-	data map[string]*Pad
+	data    map[string]*Pad
 	logTick <-chan time.Time
 }
 

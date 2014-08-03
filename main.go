@@ -1,13 +1,13 @@
 package main
 
 import (
+	"fmt"
+	"github.com/gorilla/mux"
+	"github.com/sirsean/pad/api"
+	"github.com/sirsean/pad/config"
 	"html/template"
 	"log"
-	"fmt"
 	"net/http"
-	"github.com/gorilla/mux"
-	"github.com/sirsean/pad/config"
-	"github.com/sirsean/pad/api"
 )
 
 func main() {

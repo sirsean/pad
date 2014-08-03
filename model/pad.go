@@ -1,15 +1,15 @@
 package model
 
 import (
-	"strings"
 	"code.google.com/p/go-uuid/uuid"
+	"strings"
 )
 
 type Pad struct {
-	Id string
-	Consumable int
+	Id               string
+	Consumable       int
 	ExpiresInSeconds int
-	Callback string
+	Callback         string
 }
 
 func (p *Pad) GenerateId() {
